@@ -18,6 +18,8 @@ class Director(Hollywood):
 Marvel = Hollywood("Spiderman", 2002)
 Marvel.hitmovies()
 
-
 Director_1 = Director("Spiderman", 2002, "Sam Raimi")
 Director_1.printeverything()
+
+Director_1 = Director("Spiderman", 2002, "Sam Raimi")
+Director_1.hitmovies()
